@@ -22,6 +22,7 @@ describe('AppComponent', () => {
   it(`should have as title 'bootcamp-hdb'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
+    console.log(app);
     expect(app.title).toEqual('bootcamp-hdb');
   });
 });

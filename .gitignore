@@ -40,3 +40,9 @@ Thumbs.db
 
 .nx/cache
 .angular
+
+# environment file
+/src/environments/environment.ts
+/src/app/config.ts
+
+.env
